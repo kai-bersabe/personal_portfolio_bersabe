@@ -229,3 +229,29 @@ header nav a.active {
   }
 }
 
+@media (max-width: 768px) {
+
+  .hero,
+  .options {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    padding-top: 96px;
+    padding-bottom: 20px;
+  }
+
+  .hero-inner {
+    width: 100%;
+    margin: 0;
+  }
+
+  .options {
+    margin-top: 20px;
+    padding: 24px 18px;
+  }
+
+}
+
