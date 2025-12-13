@@ -1,12 +1,9 @@
-/* contact.css - Hero + Cards (contact.html) */
-
 :root {
   --glass: rgba(255, 255, 255, 0.08);
   --accent: #ffffff;
   --muted: #d6eaf0;
 }
 
-/* GLOBAL RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +14,6 @@ html, body {
   height: 100%;
 }
 
-/* PAGE BASE */
 body {
   font-family: "Poppins", sans-serif;
   position: relative;
@@ -27,7 +23,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* entrance animation */
   opacity: 0;
   transform: translateY(20px);
   animation: pageFadeIn .9s ease-out forwards;
@@ -40,7 +35,6 @@ body {
   }
 }
 
-/* OVERLAY — FIXED FULL-PAGE COVER */
 .overlay {
   position: absolute;
   inset: 0;
@@ -50,7 +44,6 @@ body {
   z-index: -1;
 }
 
-/* NAVBAR */
 header {
   position: fixed;
   top: 0;
@@ -89,7 +82,6 @@ header nav a.active {
   transform: translateY(-1px);
 }
 
-/* HERO SECTION */
 .hero {
   padding-top: 120px;
   padding-bottom: 40px;
@@ -136,7 +128,6 @@ header nav a.active {
   font-size: 1.05rem;
 }
 
-/* OPTIONS CARDS */
 .options {
   width: 90%;
   max-width: 1100px;
@@ -218,7 +209,6 @@ header nav a.active {
   font-size: 0.98rem;
 }
 
-/* FOOTER */
 .small-footer {
   text-align: center;
   color: #bcdfe8;
@@ -226,7 +216,6 @@ header nav a.active {
   margin-bottom: 40px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .options {
     flex-direction: column;
@@ -239,3 +228,4 @@ header nav a.active {
     font-size: 2rem;
   }
 }
+
