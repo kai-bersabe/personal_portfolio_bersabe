@@ -235,7 +235,7 @@ header nav a.active {
   }
 
   .option-card {
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
   }
 
   .option-card:last-child {
@@ -244,6 +244,7 @@ header nav a.active {
 }
 
 }
+
 
 
 
