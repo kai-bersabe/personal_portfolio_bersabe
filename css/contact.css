@@ -253,5 +253,16 @@ header nav a.active {
     padding: 24px 18px;
   }
 
+@media (max-width: 768px) {
+  .hero-inner {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .options {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }
+
 
