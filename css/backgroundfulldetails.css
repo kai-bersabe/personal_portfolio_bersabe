@@ -14,7 +14,6 @@ body {
     color: #fff;
 }
 
-/* Dark overlay */
 .overlay {
     position: fixed;
     inset: 0;
@@ -22,7 +21,6 @@ body {
     z-index: -1;
 }
 
-/* Header */
 header {
     position: fixed;
     top: 0;
@@ -56,7 +54,6 @@ header nav a.active {
     transform: translateY(-1px);
 }
 
-/* Container */
 .details-container {
     padding-top: 150px;
     width: 90%;
@@ -75,7 +72,6 @@ header nav a.active {
     text-align: center;
 }
 
-/* Glass cards */
 .detail-card {
     background: var(--glass);
     padding: 26px;
@@ -112,7 +108,6 @@ header nav a.active {
     font-size: 1.05rem;
 }
 
-/* Back Button */
 .back-btn {
     display: inline-block;
     margin-top: 25px;
@@ -129,7 +124,6 @@ header nav a.active {
     transform: translateX(-4px);
 }
 
-/* Animations */
 @keyframes fadeInPage {
     to {
         opacity: 1;
@@ -143,3 +137,4 @@ header nav a.active {
         transform: translateY(0);
     }
 }
+
