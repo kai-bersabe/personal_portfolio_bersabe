@@ -227,5 +227,22 @@ header nav a.active {
   .hero h1 {
     font-size: 2rem;
   }
+
+@media (max-width: 900px) {
+  .options {
+    gap: 0;             
+    padding: 20px;      
+  }
+
+  .option-card {
+    margin-bottom: 20px; 
+  }
+
+  .option-card:last-child {
+    margin-bottom: 0;
+  }
 }
+
+}
+
 
